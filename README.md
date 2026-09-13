@@ -40,7 +40,7 @@ Run the scraper from your terminal:
 ```
 ## Expected Output
 The script will initialize the headless browser, navigate to the target site, and output the isolated data points directly to your terminal.
-
+```Plaintext
 Launching headless Chromium browser to render JavaScript...
 Navigating to OffCampusPhilly...
 Waiting for database to inject property cards...
@@ -51,5 +51,5 @@ Data Point Extracted: 1414  Diamond St Unit 2
 Data Point Extracted: 1418 Diamond St Unit 1
 Data Point Extracted: 1423 Diamond St Unit 3F
 ...
-
+```
 
