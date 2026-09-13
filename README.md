@@ -35,8 +35,9 @@ This PoC demonstrates a functional workaround by utilizing a headless browser en
 
 ## Execution
 Run the scraper from your terminal:
+   ```bash
    python3 poc_scraper.py
-
+```
 ## Expected Output
 The script will initialize the headless browser, navigate to the target site, and output the isolated data points directly to your terminal.
 
