@@ -24,3 +24,31 @@ This PoC demonstrates a functional workaround by utilizing a headless browser en
    ```bash
    git clone [YOUR_REPO_LINK_HERE]
    cd [YOUR_REPO_DIRECTORY]
+
+2. Install the required HTML parsing and automation libraries:
+   ```bash
+   pip3 install playwright beautifulsoup4 requests
+
+3. Install the Playwright Chromium browser binaries:
+   ```bash
+   python3 -m playwright install
+
+## Execution
+Run the scraper from your terminal:
+   python3 poc_scraper.py
+
+## Expected Output
+The script will initialize the headless browser, navigate to the target site, and output the isolated data points directly to your terminal.
+
+Launching headless Chromium browser to render JavaScript...
+Navigating to OffCampusPhilly...
+Waiting for database to inject property cards...
+
+--- ISOLATING REAL PROPERTIES ---
+Data Point Extracted: In Unit Washer Dryer
+Data Point Extracted: 1414  Diamond St Unit 2
+Data Point Extracted: 1418 Diamond St Unit 1
+Data Point Extracted: 1423 Diamond St Unit 3F
+...
+
+
